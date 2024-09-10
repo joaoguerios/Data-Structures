@@ -44,13 +44,9 @@ int main(void) {
     for(i=0;i<MAX;i++){
         add(&minha_lista,i);
     }
-
     percorrer_lista(&minha_lista);
-
     remover(&minha_lista, 1);
-
     percorrer_lista(&minha_lista);
-
     return 0;
 }
 
